@@ -14,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Program$mathmodule.coverage" NAME="mathmodule Coverage Results" MODIFIED="1424258561637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Program$statmodule.coverage" NAME="statmodule Coverage Results" MODIFIED="1424277745518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Program$gui.coverage" NAME="gui Coverage Results" MODIFIED="1424527713626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Program$gui.coverage" NAME="gui Coverage Results" MODIFIED="1424545800304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Program$processingmodule.coverage" NAME="processingmodule Coverage Results" MODIFIED="1424522831441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -74,7 +74,7 @@
       <file leaf-file-name="gui.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="19" selection-start="9305" selection-end="9305" vertical-scroll-proportion="1.7803279" vertical-offset="1924" max-vertical-offset="3655">
+            <state line="121" column="59" selection-start="4331" selection-end="4331" vertical-scroll-proportion="0.18627451" vertical-offset="1924" max-vertical-offset="3655">
               <folding>
                 <element signature="e#23#44#0" expanded="true" />
               </folding>
@@ -894,7 +894,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="19" selection-start="9305" selection-end="9305" vertical-scroll-proportion="1.7803279" vertical-offset="1924" max-vertical-offset="3655">
+        <state line="121" column="59" selection-start="4331" selection-end="4331" vertical-scroll-proportion="0.18627451" vertical-offset="1924" max-vertical-offset="3655">
           <folding>
             <element signature="e#23#44#0" expanded="true" />
           </folding>
