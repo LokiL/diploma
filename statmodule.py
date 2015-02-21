@@ -1,9 +1,7 @@
-
 __author__ = 'Арслан'
 
-from mathmodule import colordifference, lab_2_LCH, rgb_2_lab
+from mathmodule import colordifference, lab_2_lch, rgb_2_lab
 import mainfile
-
 
 
 def classify(color):
@@ -15,8 +13,8 @@ def classify(color):
     """
     diff = 100
     id = ''
-    tmpcolor = lab_2_LCH(rgb_2_lab(color))
-    if tmpcolor[1] <= 22:
+    tmpcolor = lab_2_lch(rgb_2_lab(color))
+    if tmpcolor[1] <= 22:  #отдельная проверка на серый цвет
         return 'grey'
     else:
         for i in range(len(mainfile.current_color)):
@@ -25,6 +23,7 @@ def classify(color):
                 diff = t
                 id = mainfile.current_color[i][0]
         return id
+
 
 ''' Непонятно откуда, потом подчистить.
 def count_colors(list):

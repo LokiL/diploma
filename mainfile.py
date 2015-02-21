@@ -1,4 +1,5 @@
 __author__ = 'Арслан'
+
 from tkinter.filedialog import askopenfile
 from processingmodule import bypass_picture, readfile, string_into_nums
 

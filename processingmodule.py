@@ -1,10 +1,12 @@
+__author__ = 'Арслан'
+
 from PIL import Image
 from statmodule import classify
 from mathmodule import calc_color_matrix
 import re
 
 
-def readfile(filename): #
+def readfile(filename):
     """
     Читаем файл и создаем список цветов в нем
 
@@ -27,13 +29,12 @@ def getmatrix(im, x, y, size):
     :param size:
     :return list(M):
     """
-    M = [[list(im.getpixel(tuple((x+i, y+j))))
-          for j in range(len(range(x, x+size)))]
-         for i in range(len(range(y, y+size)))] #аналог нижеследующего цикла
-    '''
-    M = []
-    for i in range(len(range(y, y + size))):
-        M.append([list(im.getpixel(tuple((x + i, y + j)))) for j in range(len(range(x, x + size)))])'''
+    M = [[list(im.getpixel(tuple((x + i, y + j))))
+          for j in range(len(range(x, x + size)))]
+         for i in range(len(range(y, y + size)))]  #аналог нижеследующего цикла
+    #M = []
+    #for i in range(len(range(y, y + size))):
+    #    M.append([list(im.getpixel(tuple((x + i, y + j)))) for j in range(len(range(x, x + size)))])
     return M
 
 
@@ -49,16 +50,15 @@ def resize(img, n):
     x = img.size[0]
     y = img.size[1]
 
-    while x%n != 0:
+    while x % n != 0:
         x += 1
-    while y%n != 0:
+    while y % n != 0:
         y += 1
-    img = img.resize((x,y), resample=1)
+    img = img.resize((x, y), resample=1)
     return img
 
 
-
-def bypass_picture(image, n): 
+def bypass_picture(image, n):
     """
     Основная функция обработки картинки. n - размер матрицы сжатия.
     :param image:
@@ -74,6 +74,7 @@ def bypass_picture(image, n):
             colors.append(t)
     return colors
 
+
 def string_into_nums(in_string):
     """
     Функция парсинга строк, получаемых из вводимых пользователем данных. Отсекается все, что не числа.
@@ -81,5 +82,5 @@ def string_into_nums(in_string):
     :return list(\d+):
     """
     ret = re.compile('\d+')  # выделять только числа
-    return list(map(int, ret.findall(in_string))) #вернуть список строк, который преобразовывается в список чисел
+    return list(map(int, ret.findall(in_string)))  #вернуть список строк, который преобразовывается в список чисел
 
