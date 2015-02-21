@@ -4,13 +4,14 @@ __author__ = 'Арслан'
 import math
 
 def matrix_mult(matrix1,matrix2):
-    #Перемножаем две матрицы размером a*b и b*c
-    #На входе две матрицы в формате A = [[a,b,c,..], [d,e,f,..],..]
     """
+    Функция для перемножения матриц (a*b)x(b*c)
+    На входе две матрицы в формате A = [[a,b,c,..], [d,e,f,..],..]
+    На выходе - результат перемножения.
 
     :param matrix1:
     :param matrix2:
-    :return:
+    :return r:
     """
     s = 0 #сумма
     t = [] #временная матрица
@@ -30,11 +31,10 @@ def matrix_mult(matrix1,matrix2):
 
 
 def rgb_2_lab(RGB):
-    #На входе RGB-цвет в формате [R,G,B]
     """
-
-    :param RGB:
-    :return:
+    Преобразование цвета из RGB в Lab через промежуточное пространство XYZ
+    :param RGB = [R,G,B]:
+    :return [L,a,b]:
     """
     r = RGB[0]
     g = RGB[1]
@@ -96,20 +96,20 @@ def rgb_2_lab(RGB):
         fz = corrfunc2(z)
 
 
-    #zerodel = lambda t: 1 if t == 0 else t #вспомогательная лямбда-функция, чтобы убрать возможный ноль, который дать неприятные последствия потом
 
     L = round(((116*fy) - 16), 4)
     a = round((500*(fx - fy)), 4)
     b = round((200*(fy - fz)), 4)
 
 
-    return [L,a,b]#На выходе [L,a,b]
+    return [L,a,b]
 
-def lab_2_LCH(Lab): # преобразование lab - LCH
+def lab_2_LCH(Lab):
     """
+    Преобразование Lab в LCH
 
-    :param Lab:
-    :return:
+    :param Lab = [L,a,b]:
+    :return [L,C,H]:
     """
     L = round((Lab[0]), 4)
     C = round((math.sqrt(Lab[1]**2 + Lab[2]**2)), 4)
@@ -124,10 +124,11 @@ def lab_2_LCH(Lab): # преобразование lab - LCH
 def colordifference(color1, color2):
     #colorX - [r,g,b]
     """
+    Формула для подсчета цветового различия (CMC)
 
-    :param color1:
-    :param color2:
-    :return:
+    :param color1 = [r,g,b]:
+    :param color2 = [r,g,b]:
+    :return float:
     """
     color1 = rgb_2_lab(color1) #Берем Lab значение цвета
     color2 = rgb_2_lab(color2) #Аналогично
@@ -173,12 +174,16 @@ def colordifference(color1, color2):
 
     return round(colordiff, 4) #Значение абсолютно
 
-def calc_color_matrix(M, n): #среднее арифметическое матрицы, используется для получения среднего цвета в матрице n*n
+def calc_color_matrix(M, n): #NB! Возможно некорректно нелинейное преобразование, проверить
     """
+    Cреднее арифметическое матрицы, используется для получения среднего цвета в матрице n*n.
+    Подсчет идет через суммирование каждой компоненты и деление на общее число.
+    M - матрица
+    n - размер
 
     :param M:
     :param n:
-    :return:
+    :return [R,G,B]:
     """
     avR = 0
     avG = 0
