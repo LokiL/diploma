@@ -24,6 +24,17 @@ def classify(color):
                 id = mainfile.current_color[i][0]
         return id
 
+def get_number_of_colors(color):
+    list = []
+    list.append(['grey', color.count('grey')])
+    list.append(['blue', color.count('blue')])
+    list.append(['green', color.count('green')])
+    list.append(['red', color.count('red')])
+    list.append(['yellow', color.count('yellow')])
+    list.append(['violet', color.count('violet')])
+    list.append(['brown', color.count('brown')])
+    list.append(['black', color.count('black')])
+    return list
 
 ''' Непонятно откуда, потом подчистить.
 def count_colors(list):

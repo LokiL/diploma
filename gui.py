@@ -4,6 +4,7 @@ from tkinter import *
 from tkinter.ttk import *
 
 from mainfile import *
+from statmodule import get_number_of_colors
 
 
 def load(event):
@@ -19,7 +20,9 @@ def load(event):
     else:
         file_name_label.configure(text=fn.name)  #выводим имя открытого файла на форме
         root.update_idletasks()  #Обновляем форму
-        start_color_analysis(fn)  #Запускаем анализ
+        t = start_color_analysis(fn)  #Запускаем анализ
+        #print(get_number_of_colors(t))
+        results_message.configure(text=get_number_of_colors(t))
         return
 
 

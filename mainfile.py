@@ -25,9 +25,9 @@ def start_color_analysis(fn):  #основной цикл
     :param fn: string путь к файлу
     :return None:
     """
-    bypass_picture(readfile(fn), current_matrix)
+    t = bypass_picture(readfile(fn), current_matrix)
 
-    return
+    return t
 
 
 
