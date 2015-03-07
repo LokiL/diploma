@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e0f7cc7-4d8f-48df-84c8-5c59e330c1bb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui.py" afterPath="$PROJECT_DIR$/gui.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainfile.py" afterPath="$PROJECT_DIR$/mainfile.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statmodule.py" afterPath="$PROJECT_DIR$/statmodule.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Program.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Program$mathmodule.coverage" NAME="mathmodule Coverage Results" MODIFIED="1424258561637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Program$statmodule.coverage" NAME="statmodule Coverage Results" MODIFIED="1424277745518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Program$gui.coverage" NAME="gui Coverage Results" MODIFIED="1425719818323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Program$gui.coverage" NAME="gui Coverage Results" MODIFIED="1425720278400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Program$processingmodule.coverage" NAME="processingmodule Coverage Results" MODIFIED="1424522831441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -46,7 +44,7 @@
       <file leaf-file-name="statmodule.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statmodule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="48" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="901">
+            <state line="16" column="24" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -55,7 +53,7 @@
       <file leaf-file-name="processingmodule.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/processingmodule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="17" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+            <state line="74" column="17" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
@@ -65,9 +63,7 @@
         <entry file="file://$PROJECT_DIR$/mainfile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="29" column="12" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
-              <folding>
-                <marker date="1425718277390" expanded="true" signature="349:538" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,10 +71,10 @@
       <file leaf-file-name="gui.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="555" selection-end="555" vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="3570">
+            <state line="25" column="32" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5952381" vertical-offset="0" max-vertical-offset="3604">
               <folding>
                 <element signature="e#23#44#0" expanded="true" />
-                <element signature="e#2202#2365#0" expanded="false" />
+                <element signature="e#2236#2399#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -102,8 +98,8 @@
         <option value="$PROJECT_DIR$/mathmodule.py" />
         <option value="$PROJECT_DIR$/processingmodule.py" />
         <option value="$PROJECT_DIR$/mainfile.py" />
-        <option value="$PROJECT_DIR$/statmodule.py" />
         <option value="$PROJECT_DIR$/gui.py" />
+        <option value="$PROJECT_DIR$/statmodule.py" />
       </list>
     </option>
   </component>
@@ -486,7 +482,7 @@
         <state line="161" column="0" selection-start="8712" selection-end="8712" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2941">
           <folding>
             <element signature="e#23#44#0" expanded="true" />
-            <element signature="e#2202#2365#0" expanded="false" />
+            <element signature="e#2236#2399#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -517,7 +513,7 @@
         <state line="25" column="64" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
           <folding>
             <element signature="e#23#44#0" expanded="true" />
-            <element signature="e#2202#2365#0" expanded="false" />
+            <element signature="e#2236#2399#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -814,22 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding>
-            <marker date="1425718277390" expanded="true" signature="349:538" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statmodule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="48" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/processingmodule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="17" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1513">
@@ -837,12 +817,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mainfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="12" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statmodule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="24" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="555" selection-end="555" vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="3570">
+        <state line="25" column="32" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5952381" vertical-offset="0" max-vertical-offset="3604">
           <folding>
             <element signature="e#23#44#0" expanded="true" />
-            <element signature="e#2202#2365#0" expanded="false" />
+            <element signature="e#2236#2399#0" expanded="false" />
           </folding>
         </state>
       </provider>

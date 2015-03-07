@@ -14,7 +14,7 @@ def classify(color):
     diff = 100
     id = ''
     tmpcolor = lab_2_lch(rgb_2_lab(color))
-    if tmpcolor[1] <= 22:  #отдельная проверка на серый цвет
+    if tmpcolor[1] <= 20:  #отдельная проверка на серый цвет
         return 'grey'
     else:
         for i in range(len(mainfile.current_color)):
@@ -25,6 +25,13 @@ def classify(color):
         return id
 
 def get_number_of_colors(color):
+    """
+    Функция окончательного подсчета количества цветов и создания списка для вывода. На вход поступает список с классифи-
+    цированными цветами.
+
+    :param color:
+    :return [[colorname, count],[..., ...], ...]:
+    """
     list = []
     list.append(['grey', color.count('grey')])
     list.append(['blue', color.count('blue')])

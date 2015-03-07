@@ -21,8 +21,10 @@ def load(event):
         file_name_label.configure(text=fn.name)  #выводим имя открытого файла на форме
         root.update_idletasks()  #Обновляем форму
         t = start_color_analysis(fn)  #Запускаем анализ
-        #print(get_number_of_colors(t))
-        results_message.configure(text=get_number_of_colors(t))
+        out = ''
+        for i in get_number_of_colors(t):
+            out += str(i) + '\n'
+        results_message.configure(text = out)
         return
 
 
