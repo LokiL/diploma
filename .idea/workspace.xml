@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1e0f7cc7-4d8f-48df-84c8-5c59e330c1bb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui.py" afterPath="$PROJECT_DIR$/gui.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processingmodule.py" afterPath="$PROJECT_DIR$/processingmodule.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statmodule.py" afterPath="$PROJECT_DIR$/statmodule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Program.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Program$mathmodule.coverage" NAME="mathmodule Coverage Results" MODIFIED="1424258561637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Program$statmodule.coverage" NAME="statmodule Coverage Results" MODIFIED="1424277745518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Program$gui.coverage" NAME="gui Coverage Results" MODIFIED="1425720278400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Program$gui.coverage" NAME="gui Coverage Results" MODIFIED="1429502065663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Program$processingmodule.coverage" NAME="processingmodule Coverage Results" MODIFIED="1424522831441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -32,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mathmodule.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mathmodule.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mathmodule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="13" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="3468">
+            <state line="113" column="13" selection-start="2563" selection-end="2563" vertical-scroll-proportion="-0.5952381" vertical-offset="2346" max-vertical-offset="3468">
               <folding />
             </state>
           </provider>
@@ -44,7 +46,7 @@
       <file leaf-file-name="statmodule.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statmodule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1020">
+            <state line="16" column="23" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -53,7 +55,7 @@
       <file leaf-file-name="processingmodule.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/processingmodule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="17" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1513">
+            <state line="39" column="31" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
@@ -62,20 +64,17 @@
       <file leaf-file-name="mainfile.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="12" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
+            <state line="29" column="12" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gui.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gui.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5952381" vertical-offset="0" max-vertical-offset="3604">
-              <folding>
-                <element signature="e#23#44#0" expanded="true" />
-                <element signature="e#2236#2399#0" expanded="false" />
-              </folding>
+            <state line="158" column="11" selection-start="6047" selection-end="6047" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="3655">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,16 +95,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/mathmodule.py" />
-        <option value="$PROJECT_DIR$/processingmodule.py" />
         <option value="$PROJECT_DIR$/mainfile.py" />
+        <option value="$PROJECT_DIR$/processingmodule.py" />
         <option value="$PROJECT_DIR$/gui.py" />
         <option value="$PROJECT_DIR$/statmodule.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="658" />
-    <option name="y" value="4" />
+    <option name="x" value="705" />
+    <option name="y" value="6" />
     <option name="width" value="1140" />
     <option name="height" value="1050" />
   </component>
@@ -323,6 +322,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,9 +346,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -432,7 +431,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="658" y="4" width="1140" height="1050" extended-state="0" />
+    <frame x="705" y="6" width="1140" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -444,15 +443,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25398514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21360256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21360256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20403826" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -480,10 +479,7 @@
     <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="161" column="0" selection-start="8712" selection-end="8712" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2941">
-          <folding>
-            <element signature="e#23#44#0" expanded="true" />
-            <element signature="e#2236#2399#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -511,10 +507,7 @@
     <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="64" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
-          <folding>
-            <element signature="e#23#44#0" expanded="true" />
-            <element signature="e#2236#2399#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -803,16 +796,9 @@
         <state line="1206" column="11" selection-start="37333" selection-end="37333" vertical-scroll-proportion="-1.9368421" vertical-offset="21722" max-vertical-offset="41973" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mathmodule.py">
+    <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="13" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="3468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processingmodule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="17" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1513">
+        <state line="158" column="11" selection-start="6047" selection-end="6047" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="3655">
           <folding />
         </state>
       </provider>
@@ -824,20 +810,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statmodule.py">
+    <entry file="file://$PROJECT_DIR$/processingmodule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1020">
+        <state line="39" column="31" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1513">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
+    <entry file="file://$PROJECT_DIR$/statmodule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5952381" vertical-offset="0" max-vertical-offset="3604">
-          <folding>
-            <element signature="e#23#44#0" expanded="true" />
-            <element signature="e#2236#2399#0" expanded="false" />
-          </folding>
+        <state line="16" column="23" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathmodule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="13" selection-start="2563" selection-end="2563" vertical-scroll-proportion="-0.5952381" vertical-offset="2346" max-vertical-offset="3468">
+          <folding />
         </state>
       </provider>
     </entry>

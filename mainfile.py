@@ -1,4 +1,10 @@
-__author__ = 'Арслан'
+__author__ = 'Мусин А.А. МГППУ ИТ 5.2'
+__copyright__ = 'Copyright 2015'
+__license__ = 'GNU GPL'
+__version__ = '2.1'
+__maintainer__ = 'Musin A.A.'
+__email__ = 'lernar@gmail.com'
+__status__ = 'Release'
 
 from tkinter.filedialog import askopenfile
 from processingmodule import bypass_picture, readfile, string_into_nums
@@ -41,7 +47,6 @@ current_brown = [150, 75, 0]
 current_black = [0, 0, 0]
 
 current_matrix = 3  #значение матрицы
-current_daltonism = 'Норма'  #0,1,2,3 - "Норма","Протанопия", "Дейтеранопия", "Тританопия"
 
 current_color = [['blue', current_blue],  #blue
                  ['green', current_green],  #green

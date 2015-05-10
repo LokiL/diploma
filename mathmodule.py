@@ -1,4 +1,10 @@
-__author__ = 'Арслан'
+__author__ = 'Мусин А.А. МГППУ ИТ 5.2'
+__copyright__ = 'Copyright 2015'
+__license__ = 'GNU GPL'
+__version__ = '2.1'
+__maintainer__ = 'Musin A.A.'
+__email__ = 'lernar@gmail.com'
+__status__ = 'Release'
 
 import math
 
@@ -172,7 +178,7 @@ def colordifference(color1, color2):
     return round(colordiff, 4)  #Значение абсолютно
 
 
-def calc_color_matrix(M, n):  #NB! Возможно некорректно нелинейное преобразование, проверить
+def calc_color_matrix(M, n):  
     """
     Cреднее арифметическое матрицы, используется для получения среднего цвета в матрице n*n.
     Подсчет идет через суммирование каждой компоненты и деление на общее число.

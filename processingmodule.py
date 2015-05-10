@@ -1,4 +1,10 @@
-__author__ = 'Арслан'
+__author__ = 'Мусин А.А. МГППУ ИТ 5.2'
+__copyright__ = 'Copyright 2015'
+__license__ = 'GNU GPL'
+__version__ = '2.1'
+__maintainer__ = 'Musin A.A.'
+__email__ = 'lernar@gmail.com'
+__status__ = 'Release'
 
 from PIL import Image
 from statmodule import classify
@@ -31,13 +37,13 @@ def getmatrix(im, x, y, size):
     """
     M = [[list(im.getpixel(tuple((x + i, y + j))))
           for j in range(len(range(x, x + size)))]
-         for i in range(len(range(y, y + size)))]  #аналог нижеследующего цикла
+         for i in range(len(range(y, y + size)))]  #аналог нижеследующего цикла, оставлено для понимания механизма работы
     #M = []
     #for i in range(len(range(y, y + size))):
     #    M.append([list(im.getpixel(tuple((x + i, y + j)))) for j in range(len(range(x, x + size)))])
     return M
 
-
+#костыль для корректности работы
 def resize(img, n):
     """
     Изменение размера картинки для деления на целое число матриц.
@@ -54,7 +60,7 @@ def resize(img, n):
         x += 1
     while y % n != 0:
         y += 1
-    img = img.resize((x, y), resample=1)
+    img = img.resize((x, x), resample=1)
     return img
 
 

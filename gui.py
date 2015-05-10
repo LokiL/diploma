@@ -1,4 +1,10 @@
-__author__ = 'Арслан'
+__author__ = 'Мусин А.А. МГППУ ИТ 5.2'
+__copyright__ = 'Copyright 2015'
+__license__ = 'GNU GPL'
+__version__ = '2.1'
+__maintainer__ = 'Musin A.A.'
+__email__ = 'lernar@gmail.com'
+__status__ = 'Release'
 
 from tkinter import *
 from tkinter.ttk import *
@@ -72,18 +78,6 @@ def change_parameters(event):
 
     return
 
-
-def get_dalt(event):
-    """
-    Обработчик события изменения параметра дальтонизма
-
-    :param event:
-    :return None:
-    """
-    current_daltonism = daltonism_combobox.get()
-    return
-
-
 if __name__ == '__main__':
     root = Tk()
     root.title('Color analysis')
@@ -107,7 +101,7 @@ if __name__ == '__main__':
 
     #Фрейм ввода цветов
     #Подписи к полям ввода цвета
-    color_parameters = Label(color_select_frame, text='Параметры цвета(R G B:')
+    color_parameters = Label(color_select_frame, text='Параметры цвета(R G B):')
     custom_color_parameters_label = Label(color_select_frame, text='Свои')
     current_color_parameters_label = Label(color_select_frame, text='Текущие')
     current_blue_label = Label(color_select_frame, text=current_color[0][1])
@@ -144,14 +138,6 @@ if __name__ == '__main__':
     current_matrix_label = Label(matrix_scale_correction_frame, text=current_matrix)
 
 
-    #Фрейм дальтонизма
-    #Корректировка для дальтоников, надписи
-    daltonism_label = Label(daltonism_frame, text='Цветовая слепота')
-    daltonism_combobox = Combobox(daltonism_frame, values=['Норма', 'Протанопия', 'Дейтеранопия', 'Тританопия'])
-    daltonism_combobox.set('Норма')
-    daltonism_combobox.bind('<Button-1>', get_dalt)
-
-
     #Фрейм вывода результатов
     results_label = Label(results_frame, text='Результат анализа')
     results_message = Message(results_frame, text='Проверка\nПроверка\nПроверка')
@@ -161,7 +147,7 @@ if __name__ == '__main__':
     btn_frame.grid(row=0, column=0, sticky='w', pady=3, padx=3, columnspan=4)
     color_select_frame.grid(row=1, column=0, columnspan=2, sticky='w', pady=3, padx=3)
     matrix_scale_correction_frame.grid(row=2, column=0, columnspan=2, sticky='w', pady=3, padx=3)
-    daltonism_frame.grid(row=3, column=0, columnspan=2, sticky='w', pady=3, padx=3)
+    #daltonism_frame.grid(row=3, column=0, columnspan=2, sticky='w', pady=3, padx=3)
     results_frame.grid(row=1, column=3, sticky='n', pady=3, padx=3)
 
     #Блок файла
@@ -203,10 +189,6 @@ if __name__ == '__main__':
     current_matrix_parameters_label.grid(row=1, column=1, sticky='w', pady=1, padx=1)
     matrix_scale_correction_entry.grid(row=2, column=0, sticky='w', pady=1, padx=1)
     current_matrix_label.grid(row=2, column=1, sticky='w', pady=1, padx=1)
-
-    #блок дальтонизма
-    daltonism_label.grid(row=0, column=0, sticky='w', pady=1, padx=1)
-    daltonism_combobox.grid(row=5, column=0)
 
     #блок вывода результатов
     results_label.grid(row=0, column=0, columnspan=2, sticky='w', pady=1, padx=1)

@@ -1,4 +1,10 @@
-__author__ = 'Арслан'
+__author__ = 'Мусин А.А. МГППУ ИТ 5.2'
+__copyright__ = 'Copyright 2015'
+__license__ = 'GNU GPL'
+__version__ = '2.1'
+__maintainer__ = 'Musin A.A.'
+__email__ = 'lernar@gmail.com'
+__status__ = 'Release'
 
 from mathmodule import colordifference, lab_2_lch, rgb_2_lab
 import mainfile
@@ -14,7 +20,7 @@ def classify(color):
     diff = 100
     id = ''
     tmpcolor = lab_2_lch(rgb_2_lab(color))
-    if tmpcolor[1] <= 20:  #отдельная проверка на серый цвет
+    if tmpcolor[1] <= 1:  #отдельная проверка на серый цвет
         return 'grey'
     else:
         for i in range(len(mainfile.current_color)):
@@ -42,14 +48,3 @@ def get_number_of_colors(color):
     list.append(['brown', color.count('brown')])
     list.append(['black', color.count('black')])
     return list
-
-''' Непонятно откуда, потом подчистить.
-def count_colors(list):
-    """
-
-    :param list:
-    :return:
-    """
-    d = {i[0]: list.count(i[0]) for i in current_color}
-    return d
-'''
